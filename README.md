@@ -2,7 +2,7 @@
 
 Next, folowing this step.
 
-1. After clone this script run .sh file with **bash Grub-Recovery-v1.sh** without **.
+1. After clone this script run .sh file with **bash Grub-Recovery-v1.sh**.
 2. And following step on main menu.
 
 ---
