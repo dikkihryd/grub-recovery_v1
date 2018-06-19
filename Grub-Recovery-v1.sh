@@ -44,15 +44,18 @@ echo
 echo
 echo "chrooting.. /mnt.."
 echo "chroot Succesfully"
-egrep 'grub|bash' Grub-Recovery-v1.sh >Grub-install.sh
-mv Grub-install.sh /mnt/bin
-chmod +x /mnt/bin/Grup-install.sh
+echo
+echo "After Chroot Sucesfull Type install.sh and Enter"
+echo
+egrep 'grub|bash' Grub-Recovery-v1.sh > install.sh
+mv install.sh /mnt/bin
+chmod 777 /mnt/bin/install.sh
 chroot /mnt
 
 ;;
 
 2)
-echo "unmounting.."
+echo "umounting.."
 
 umount /mnt/sys
 umount /mnt/proc
